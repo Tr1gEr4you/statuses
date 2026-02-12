@@ -1,0 +1,19 @@
+{
+    "name": "@tr1ger4you/statuses",
+    "version": "1.0.0",
+    "type": "commonjs",
+    "main": "dist/index.js",
+    "files": [
+        "dist"
+    ],
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tr1ger4you/statuses.git"
+    },
+    "scripts": {
+        "build": "tsc -p tsconfig.json"
+    }
+}
