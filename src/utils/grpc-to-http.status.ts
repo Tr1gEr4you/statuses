@@ -1,7 +1,7 @@
 import { HttpStatus } from '../enums/http-status.enum';
 import { RpcStatus } from '../enums/rps-status.enum';
 
-export const grpcToHttpStatus: Record<number, number> = {
+export const grpcToHttpStatus = {
     [RpcStatus.OK]: HttpStatus.OK,
     [RpcStatus.CANCELLED]: 499,
     [RpcStatus.UNKNOWN]: HttpStatus.INTERNAL_SERVER_ERROR,
