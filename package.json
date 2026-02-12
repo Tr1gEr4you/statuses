@@ -1,6 +1,6 @@
 {
     "name": "@tr1ger4you/statuses",
-    "version": "1.0.02",
+    "version": "1.0.03",
     "type": "commonjs",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
