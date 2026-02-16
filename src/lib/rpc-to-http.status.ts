@@ -1,7 +1,7 @@
 import { HttpStatus } from '../enums/http-status.enum';
 import { RpcStatus } from '../enums/rps-status.enum';
 
-export const grpcToHttpStatus = {
+export const rpcToHttpStatus = {
     [RpcStatus.OK]: HttpStatus.OK,
     [RpcStatus.CANCELLED]: 499,
     [RpcStatus.UNKNOWN]: HttpStatus.INTERNAL_SERVER_ERROR,
@@ -19,4 +19,4 @@ export const grpcToHttpStatus = {
     [RpcStatus.UNAVAILABLE]: HttpStatus.SERVICE_UNAVAILABLE,
     [RpcStatus.DATA_LOSS]: HttpStatus.INTERNAL_SERVER_ERROR,
     [RpcStatus.UNAUTHENTICATED]: HttpStatus.UNAUTHORIZED,
-};
+} as const;
