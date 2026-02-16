@@ -1,10 +1,10 @@
 import { RpcStatus } from '../enums';
 
-export const RPC_STATUS_TRANSLATIONS = {
+export const rpcStatusTranslations = {
     [RpcStatus.OK]: 'Успешно',
     [RpcStatus.CANCELLED]: 'Отменено',
     [RpcStatus.UNKNOWN]: 'Неизвестная ошибка',
-    [RpcStatus.INVALID_ARGUMENT]: 'Некорректный запрс',
+    [RpcStatus.INVALID_ARGUMENT]: 'Некорректный запрос',
     [RpcStatus.DEADLINE_EXCEEDED]: 'Превышено время ожидания',
     [RpcStatus.NOT_FOUND]: 'Не найдено',
     [RpcStatus.ALREADY_EXISTS]: 'Уже существует',
