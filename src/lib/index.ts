@@ -1,1 +1,1 @@
-export * from './rpc-to-http.status';
+export * from './grpc-to-http.status';
